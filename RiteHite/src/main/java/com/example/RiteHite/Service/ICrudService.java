@@ -10,5 +10,6 @@ public interface ICrudService {
 
     public void createCrud(RiteHite_Crud create);
     public String updateName(String name);
+    public String deleteCrud(Long id);
 
 }

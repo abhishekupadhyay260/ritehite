@@ -23,6 +23,14 @@ public class CrudServiceImpl implements ICrudService {
 
     @Override
     public String updateName(String name) {
+
+        return null;
+    }
+
+    @Override
+    public String deleteCrud(Long id){
+        repo.deleteById(id);
         return null;
     }
 }
+
